@@ -1,0 +1,2 @@
+var myStr = "This is the start. " + "This is the end.";
+var abc = "Good" + "job!"; // It says "Goodjob!" // Change this line
