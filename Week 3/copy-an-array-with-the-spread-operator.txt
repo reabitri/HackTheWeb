@@ -1,0 +1,9 @@
+function copyMachine(arr, n) {
+  let newArr = [];
+  while (n >= 1) {
+    newArr.push([...arr]);
+    n--;
+  }
+  return newArr;
+}
+console.log(copyMachine([true, false, true], 2));
